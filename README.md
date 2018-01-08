@@ -4,20 +4,20 @@
 
 # DATA PREPROCESSING
 
- • Load Data
- • Check for null/missing values
- • Check for unbalanced labels
- • Data normalization
- • Label encoding (One Hot Encoding to convert categorical variables to one hot vectors)
- • Split training and validation sets
+ • Load Data <br />
+ • Check for null/missing values <br />
+ • Check for unbalanced labels <br />
+ • Data normalization <br />
+ • Label encoding (One Hot Encoding to convert categorical variables to one hot vectors) <br />
+ • Split training and validation sets <br />
  
 # TRAINING MODELS
 
- • Multiple Linear Regression
- • Support Vector Machine (SVM) with Principal Component Analysis (PCA)
- • Optimized distributed Gradient Boosting (XGBoost) with parameter tuning
- • Random Forest Classifier
- • K Nearest Neighbors Classifier (KNN) with Principal Component Analysis (PCA)
+ • Multiple Linear Regression <br />
+ • Support Vector Machine (SVM) with Principal Component Analysis (PCA) <br />
+ • Optimized distributed Gradient Boosting (XGBoost) with parameter tuning <br />
+ • Random Forest Classifier <br />
+ • K Nearest Neighbors Classifier (KNN) with Principal Component Analysis (PCA) <br />
  
 # EVALUATING MODELS
  
