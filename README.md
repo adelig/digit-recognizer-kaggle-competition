@@ -2,7 +2,7 @@
 
  Computer vision techniques to identify digits from a dataset of tens of thousands of handwritten images.
 
-# DATA PREPROCESSING
+# Data Preprocessing
 
  • Load Data <br />
  • Check for null/missing values <br />
@@ -11,7 +11,7 @@
  • Label encoding (One Hot Encoding to convert categorical variables to one hot vectors) <br />
  • Split training and validation sets <br />
  
-# TRAINING MODELS
+# Training models
 
  • Multiple Linear Regression <br />
  • Support Vector Machine (SVM) with Principal Component Analysis (PCA) <br />
@@ -19,6 +19,6 @@
  • Random Forest Classifier <br />
  • K Nearest Neighbors Classifier (KNN) with Principal Component Analysis (PCA) <br />
  
-# EVALUATING MODELS
+# Evaluating models
  
  Evaluation performed based on both the F1 score and the deduced accuracy of each model on the validation data.
