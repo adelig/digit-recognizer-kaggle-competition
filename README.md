@@ -1,6 +1,7 @@
 # Kaggle - Digit Recognizer
 
- Computer vision techniques to identify digits from a dataset of tens of thousands of handwritten images.
+ Computer vision techniques to identify digits from a dataset of tens of thousands of handwritten images. <br />
+ https://www.kaggle.com/c/digit-recognizer
 
 # Data Preprocessing
 
