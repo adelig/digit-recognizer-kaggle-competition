@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 27 15:49:18 2017
-
-@author: Alexandros
-"""
-
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -143,7 +136,6 @@ def X_train_val_pca(clf):
         acc = n_component_analysis(clf, n)
         print('')
         accuracy.append(acc)
-    
     
     plt.plot(n_range, np.array(accuracy), 'b-')
     
