@@ -25,8 +25,7 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.metrics import make_scorer
 
 
-#path = os.path.dirname(os.path.abspath(__file__))
-path = "C:/Users/alexd/OneDrive/Documents/digit_recognizer"
+path = os.path.dirname(os.path.abspath(__file__))
 os.chdir(path)
 
 # PREPROCESSING
@@ -44,8 +43,8 @@ X_train = train.drop(labels = ["label"],axis = 1)
 del train
 
 # Visualize the data
-#sns.countplot(Y_train)
-#Y_train.value_counts()
+sns.countplot(Y_train)
+Y_train.value_counts()
 
 # Check for missing values
 X_train.isnull().any().describe()
@@ -145,7 +144,7 @@ def X_train_val_pca(clf):
         print('')
         accuracy.append(acc)
     
-    #%matplotlib inline
+    
     plt.plot(n_range, np.array(accuracy), 'b-')
     
     if clf == clf_svm:
