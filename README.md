@@ -16,7 +16,7 @@
 
  • Multiple Linear Regression <br />
  • Support Vector Machine (SVM) with Principal Component Analysis (PCA) <br />
- • Optimized distributed Gradient Boosting (XGBoost) with parameter tuning <br />
+ • eXtreme Gradient Boosting (XGBoost) with parameter tuning <br />
  • Random Forest Classifier <br />
  • K Nearest Neighbors Classifier (KNN) with Principal Component Analysis (PCA) <br />
  
