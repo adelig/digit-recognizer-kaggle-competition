@@ -35,14 +35,6 @@ X_train = train.drop(labels = ["label"],axis = 1)
 # Free some space
 del train
 
-# Visualize the data
-sns.countplot(Y_train)
-Y_train.value_counts()
-
-# Check for missing values
-X_train.isnull().any().describe()
-test.isnull().any().describe()
-
 # Normalize the data
 X_train = X_train / 255.0
 test = test / 255.0
@@ -137,8 +129,6 @@ def X_train_val_pca(clf):
         print('')
         accuracy.append(acc)
     
-    plt.plot(n_range, np.array(accuracy), 'b-')
-    
     if clf == clf_svm:
         pca = PCA(n_components=n_range[np.argmax(accuracy)], svd_solver ='full')
     elif clf == clf_knn:
@@ -167,15 +157,15 @@ for cl in clf_list:
     print ''
     
 # Tuning the parameters of XGBoost
-parameters = { 'learning_rate' : [0.1, 0.3],
-               'n_estimators' : [60, 100],
-               'max_depth': [3, 4],
-               'min_child_weight': [1, 2],
-               'gamma':[0, 0.2],
-               'subsample' : [0.8, 1],
-               'colsample_bytree' : [0.8, 1],
-               'scale_pos_weight' : [0.5, 1],
-               'reg_alpha':[0, 1e-5]
+parameters = { 'learning_rate' : [0.3],
+               'n_estimators' : [60],
+               'max_depth': [4],
+               'min_child_weight': [2],
+               'gamma':[0],
+               'subsample' : [0.8],
+               'colsample_bytree' : [0.8],
+               'scale_pos_weight' : [1],
+               'reg_alpha':[0.001]
              }
 
 clf_xgb = xgb.XGBClassifier()
