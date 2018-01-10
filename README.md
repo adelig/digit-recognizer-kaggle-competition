@@ -6,6 +6,7 @@
 # Outcomes
 
 Performance measured as the accuracy on validation data per model: <br />
+(The below values are indicative in the sense that they highly depend on the selection of parameters such as the PCA component range, the seed in KNN, the number of estimators in Random Forest and many others)
 
 1. SVM with PCA : 97.9% <br />
 2. KNN with PCA : 97.6% <br />
