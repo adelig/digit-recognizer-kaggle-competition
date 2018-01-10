@@ -6,13 +6,14 @@
 # Outcomes
 
 Performance measured as the accuracy on validation data per model: <br />
-(The below values are indicative in the sense that they highly depend on the selection of parameters such as the PCA component range, the seed in KNN, the number of estimators in Random Forest and many others)
 
 1. SVM with PCA : 97.9% <br />
 2. KNN with PCA : 97.6% <br />
 3. XGBoost with parameter tuning : 96.2% <br />
 4. Random Forest Classifier : 88.7% <br />
 5. Multiple Linear Regression : 85.1% <br />
+
+The above values are indicative in the sense that they highly depend on the selection of parameters such as the PCA component range, the seed in KNN, the number of estimators in Random Forest and many others. <br />
 
 # Data Preprocessing
 
