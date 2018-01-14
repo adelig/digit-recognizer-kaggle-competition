@@ -1,6 +1,8 @@
 # Kaggle - Digit Recognizer
-![alt text](https://img.shields.io/versioneye/d/ruby/rails.svg)
-
+![alt text](https://img.shields.io/aur/license/yaourt.svg)
+![alt text](https://img.shields.io/badge/Python-2.7-blue.svg)
+![alt text](https://img.shields.io/versioneye/d/ruby/rails.svg) <br />
+ 
  Computer vision techniques to identify digits from a dataset of tens of thousands of handwritten images. <br />
  https://www.kaggle.com/c/digit-recognizer
 
