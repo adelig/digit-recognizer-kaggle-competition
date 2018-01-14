@@ -1,5 +1,5 @@
 # Kaggle - Digit Recognizer
-![alt text](https://img.shields.io/aur/license/yaourt.svg)
+![alt text](https://img.shields.io/badge/License-GNU%20v3-blue.svg)
 ![alt text](https://img.shields.io/badge/Python-2.7-blue.svg)
 ![alt text](https://img.shields.io/versioneye/d/ruby/rails.svg) <br />
  
