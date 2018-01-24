@@ -1,7 +1,6 @@
 # Kaggle - Digit Recognizer
 ![alt text](https://img.shields.io/badge/License-GPL%20v3-blue.svg)
-![alt text](https://img.shields.io/badge/Python-2.7-blue.svg)
-![alt text](https://img.shields.io/versioneye/d/ruby/rails.svg) <br />
+![alt text](https://img.shields.io/badge/Python-2.7-blue.svg) <br />
 
 [Notebook](digit_recognizer_notebook.ipynb) | [Python code](digit_recognizer.py) <br />
  
